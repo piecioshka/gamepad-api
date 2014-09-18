@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gamepad API - Demo page</title>
+</head>
+<body>
+    <script src="../node_modules/super-event-emitter/lib/EventEmitter.js"></script>
+    <script src="../dist/gamepad.js"></script>
+    <script>
+        // Import from global namespace.
+        var Gamepad = window.Gamepad;
+
+        // Joysticks
+        // ---------
+
+        Gamepad.on('joystick:left', function (direction) {
+            console.log('move left joystick to', direction);
+        });
+
+        Gamepad.on('joystick:right', function (direction) {
+            console.log('move right joystick to', direction);
+        });
+
+        // Buttons
+        // -------
+
+        Gamepad.on('arrow:up', function () {
+            console.info('click arrow up');
+        });
+
+        Gamepad.on('arrow:right', function () {
+            console.info('click arrow right');
+        });
+
+        Gamepad.on('arrow:down', function () {
+            console.info('click arrow down');
+        });
+
+        Gamepad.on('arrow:left', function () {
+            console.info('click arrow left');
+        });
+
+        // Shapes
+        // ------
+
+        Gamepad.on('shape:triangle', function () {
+            console.warn('click shape triangle');
+        });
+
+        Gamepad.on('shape:circle', function () {
+            console.warn('click shape circle');
+        });
+
+        Gamepad.on('shape:cross', function () {
+            console.warn('click shape cross');
+        });
+
+        Gamepad.on('shape:square', function () {
+            console.warn('click shape square');
+        });
+
+        // Special
+        // -------
+
+        Gamepad.on('special:select', function () {
+            console.warn('click select');
+        });
+
+        Gamepad.on('special:start', function () {
+            console.warn('click start');
+        });
+
+        Gamepad.on('special:ps', function () {
+            console.warn('click ps');
+        });
+
+        // Extras
+        // ------
+
+        Gamepad.on('extra:l1', function () {
+            console.warn('click L1');
+        });
+
+        Gamepad.on('extra:l2', function () {
+            console.warn('click L2');
+        });
+
+        Gamepad.on('extra:r1', function () {
+            console.warn('click R1');
+        });
+
+        Gamepad.on('extra:r2', function () {
+            console.warn('click R2');
+        });
+    </script>
+</body>
+</html>

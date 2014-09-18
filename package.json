@@ -1,0 +1,30 @@
+{
+    "name": "gamepad-api",
+    "version": "1.0.0",
+    "description": "Used `Gamepad API` to setup wrapper for nicer usage.",
+    "license": "MIT",
+    "main": "dist/gamepad.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/piecioshka/gamepad-api.git"
+    },
+    "files": [
+        "dist",
+        "package.json",
+        "README.md"
+    ],
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "http://piecioshka.pl"
+    },
+    "keywords": [
+        "gamepad",
+        "api",
+        "events",
+        "playstation"
+    ],
+    "devDependencies": {
+        "super-event-emitter": "^3.0.8"
+    }
+}
