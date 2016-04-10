@@ -1,9 +1,8 @@
 {
     "name": "gamepad-api",
-    "version": "1.0.0",
-    "description": "Used `Gamepad API` to setup wrapper for nicer usage.",
+    "version": "1.0.1",
+    "description": "Used Gamepad API to setup wrapper for nicer usage.",
     "license": "MIT",
-    "main": "dist/gamepad.js",
     "repository": {
         "type": "git",
         "url": "http://github.com/piecioshka/gamepad-api.git"
@@ -25,6 +24,7 @@
         "playstation"
     ],
     "devDependencies": {
-        "super-event-emitter": "^3.0.8"
-    }
+        "super-event-emitter": "^4.0.0"
+    },
+    "main": "dist/gamepad-api.js"
 }

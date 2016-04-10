@@ -1,6 +1,14 @@
 # Gamepad API
 
+[![npm version](https://badge.fury.io/js/gamepad-api.svg)](https://badge.fury.io/js/gamepad-api)
+
 > Used `Gamepad API` to setup wrapper for nicer usage.
+
+## Install
+
+```
+npm install gamepad-api
+```
 
 ## API
 
