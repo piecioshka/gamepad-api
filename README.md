@@ -1,18 +1,19 @@
-# Gamepad API
+# Gamepad API ([npm](https://www.npmjs.com/package/gamepad-api))
 
 [![npm version](https://badge.fury.io/js/gamepad-api.svg)](https://badge.fury.io/js/gamepad-api)
+![](https://img.shields.io/npm/dt/gamepad-api.svg)
 
 > Used `Gamepad API` to setup wrapper for nicer usage.
 
 ## Install
 
 ```
-npm install gamepad-api
+$ npm install gamepad-api
 ```
 
 ## API
 
-```js
+```javascript
 Gamepad.on('SUPPORTED_EVENT', function () {
   // do something ...
 });
