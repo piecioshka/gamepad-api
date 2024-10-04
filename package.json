@@ -6,11 +6,11 @@
     "author": {
         "name": "Piotr Kowalski",
         "email": "piecioshka@gmail.com",
-        "url": "http://piecioshka.pl"
+        "url": "https://piecioshka.pl"
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/piecioshka/gamepad-api.git"
+        "url": "git@github.com:piecioshka/gamepad-api.git"
     },
     "files": [
         "dist",
@@ -26,5 +26,5 @@
     "devDependencies": {
         "super-event-emitter": "^4.1.3"
     },
-    "main": "dist/gamepad-api.js"
+    "main": "./dist/gamepad-api.js"
 }

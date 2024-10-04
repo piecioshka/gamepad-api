@@ -1,14 +1,16 @@
-# Gamepad API ([npm](https://www.npmjs.com/package/gamepad-api))
+# gamepad-api
 
+[![node version](https://img.shields.io/node/v/gamepad-api.svg)](https://www.npmjs.com/package/gamepad-api)
 [![npm version](https://badge.fury.io/js/gamepad-api.svg)](https://badge.fury.io/js/gamepad-api)
-![](https://img.shields.io/npm/dt/gamepad-api.svg)
+[![downloads count](https://img.shields.io/npm/dt/gamepad-api.svg)](https://www.npmjs.com/package/gamepad-api)
+[![license](https://img.shields.io/npm/l/gamepad-api.svg)](https://www.npmjs.com/package/gamepad-api)
 
-> Used `Gamepad API` to setup wrapper for nicer usage.
+Used `Gamepad API` to setup wrapper for nicer usage.
 
 ## Install
 
-```
-$ npm install gamepad-api
+```bash
+npm install gamepad-api
 ```
 
 ## API
@@ -24,19 +26,19 @@ Gamepad.on('SUPPORTED_EVENT', function () {
  - Joysticks
      - `joystick:left` - when user use left joystick
      - `joystick:right` - when user use right joystick
- 
+
  - Arrows
      - `arrow:up`
      - `arrow:right`
      - `arrow:down`
      - `arrow:left`
- 
+
  - Shapes
      - `shape:triangle`
      - `shape:circle`
      - `shape:cross`
      - `shape:square`
- 
+
  - Special
      - `special:select`
      - `special:start`
@@ -47,17 +49,17 @@ Gamepad.on('SUPPORTED_EVENT', function () {
      - `extra:l2`
      - `extra:r1`
      - `extra:r2`
-     
+
 ## Gamepad API
 
 More details in specification: http://www.w3.org/TR/gamepad/
 
 ![](https://w3c.github.io/gamepad/standard_gamepad.svg)
 
-## Thanks 
+## Thanks
 
 Thanks ben@daisyowl.com for http://html5gamepad.com/.
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org/)
+[The MIT License](https://piecioshka.mit-license.org/)
