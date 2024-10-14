@@ -52,13 +52,13 @@ Gamepad.on('SUPPORTED_EVENT', function () {
 
 ## Gamepad API
 
-More details in specification: http://www.w3.org/TR/gamepad/
+More details in specification: https://www.w3.org/TR/gamepad/
 
 ![](https://w3c.github.io/gamepad/standard_gamepad.svg)
 
 ## Thanks
 
-Thanks ben@daisyowl.com for http://html5gamepad.com/.
+Thanks ben@daisyowl.com for https://html5gamepad.com/.
 
 ## License
 
