@@ -1,7 +1,7 @@
 {
     "name": "gamepad-api",
     "version": "1.0.2",
-    "description": "Used Gamepad API to setup wrapper for nicer usage.",
+    "description": "🔨 Used Gamepad API to setup wrapper for nicer usage.",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",

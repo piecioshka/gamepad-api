@@ -5,7 +5,7 @@
 [![downloads count](https://img.shields.io/npm/dt/gamepad-api.svg)](https://www.npmjs.com/package/gamepad-api)
 [![license](https://img.shields.io/npm/l/gamepad-api.svg)](https://piecioshka.mit-license.org)
 
-Used `Gamepad API` to setup wrapper for nicer usage.
+🔨 Used `Gamepad API` to setup wrapper for nicer usage.
 
 ## Install
 
