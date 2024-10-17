@@ -8,6 +8,10 @@
 
 🔨 Used `Gamepad API` to setup wrapper for nicer usage.
 
+## Preview 🎉
+
+<https://piecioshka.github.io/gamepad-api/demo/>
+
 ## Install
 
 ```bash
