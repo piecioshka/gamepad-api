@@ -12,13 +12,13 @@
 
 <https://piecioshka.github.io/gamepad-api/demo/>
 
-## Install
+## Usage
+
+Installation:
 
 ```bash
 npm install gamepad-api
 ```
-
-## API
 
 ```javascript
 Gamepad.on('SUPPORTED_EVENT', function () {
@@ -26,7 +26,7 @@ Gamepad.on('SUPPORTED_EVENT', function () {
 });
 ```
 
-### Supported events
+## API / Supported events
 
  - Joysticks
      - `joystick:left` - when user use left joystick
