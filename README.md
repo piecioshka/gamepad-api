@@ -67,4 +67,4 @@ Thanks ben@daisyowl.com for https://html5gamepad.com/.
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org/)
+[The MIT License](http://piecioshka.mit-license.org) @ 2026

@@ -24,7 +24,8 @@
     "files": [
         "dist",
         "package.json",
-        "README.md"
+        "README.md",
+        "LICENSE"
     ],
     "keywords": [
         "gamepad",
